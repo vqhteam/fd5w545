@@ -1,0 +1,21 @@
+{
+    "name": "vqh/socialvideos",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Vqh\\Socialvideos\\": "src/"
+        }
+    },
+    "require": {
+      "ext-curl": "*",
+      "ext-json": "*"
+    },
+    "repositories": {
+        "packagist.org": false,
+        "private-packagist": {
+            "type": "composer",
+            "url": "https://repo.packagist.com/social-video/"
+        }
+    }
+}
